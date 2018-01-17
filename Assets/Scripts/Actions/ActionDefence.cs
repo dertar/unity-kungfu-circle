@@ -15,7 +15,7 @@ namespace Ai
 
             public ActionDefence ()
             {
-                this.action = Character.EActionType.BLOCK;
+                this.action = EActionType.BLOCK;
             }
 
             public override bool Next ()

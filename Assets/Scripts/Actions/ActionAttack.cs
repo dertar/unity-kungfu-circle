@@ -28,10 +28,11 @@ namespace Ai
             public int combo = 1;
 
             public int iCombo = 0;
-            public AttackType attackType;
+            //public AttackType attackType;
+
             public ActionAttack()
             {
-                base.action = Character.EActionType.ATTACK;
+                base.action = EActionType.ATTACK;
             }
 
             public override void Execute ()
